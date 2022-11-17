@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background: rgb(116,49,249);
+  background: radial-gradient(circle, rgba(55, 0, 107, 0.8) 0%, rgba(85,195,251,0.7) 48%, rgba(255,111,128,0.7) 99%);
+}
+
+header {
+  position: relative;
+  background-image: url(../../img/img-colaboradores1.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 70%;
+}
+
+.cotent{
+	max-width: 575px;
+}
+
+.titulo-principal{
+  padding: 10px;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.6);  
+  width: 80%;
+  border-radius: 5px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+}
+
+.sub-titulos {
+  padding: 0.2em;
+  color: azure;
+  text-shadow:  5px 5px 10px rgba(10, 10, 10, .6), 5px 5px 10px rgba(10, 10, 10, .6);
+}
+
+.contato-select, .grupo-radio {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-footer {
+  padding: 1rem;
+}
+
+footer{
+	padding: 1em;
+}/*# sourceMappingURL=style.css.map */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .sub-titulos {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .card{
+    background-color: transparent;
+  }
+
+  .card-header, .card-body {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    /* backdrop-filter: blur(2px); */
+  }
+
+  .nav-link, .navbar-brand{
+    color: darkslateblue!important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.card-grupo{
+		display: none!important;
+	}
+}

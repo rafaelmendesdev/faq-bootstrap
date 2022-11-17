@@ -1,0 +1,18 @@
+body {
+    background-color: rgba($color: #C3C3BB, $alpha: 0.5);
+}
+
+.sub-titulos{
+    padding: 0.2em;
+}
+
+// formulários
+.contato-select, .grupo-radio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-footer{
+    padding: 1rem;
+}
